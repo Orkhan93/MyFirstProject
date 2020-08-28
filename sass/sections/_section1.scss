@@ -1,0 +1,27 @@
+#section1{
+    @include mr-btm-50;
+    .container-photo-wrapper{
+        width: 260px;
+        height: 560px;
+   }
+   .container-photo-wrapper{
+       img{
+           @include image-value;
+       }
+    }
+    .container-photo2{
+        opacity: .8;
+    }
+    .container-heading{
+        font-family: $first-font;
+        font-size: 2.5em;
+        color: $color-white;
+    }
+    .container-app-photos{
+        a{
+            &:focus{
+                @include outline-0;
+            }
+        }
+    }
+}
